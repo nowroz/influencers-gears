@@ -33,3 +33,16 @@
   font-style: normal;
 }
 /* FONT-FAMILY CLASSES END */
+
+
+/* CSS RESET START */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* CSS RESET END */
