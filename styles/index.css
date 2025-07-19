@@ -84,7 +84,7 @@ header {
 }
 
 #navbar-hamburger-btn {
-    /* display: none; */
+    display: none;
     border: none;
     background-color: transparent;
     font-size: 1.5rem;
