@@ -72,6 +72,13 @@ img {
 /* UTILITY CLASSES END */
 
 
+/* BODY STYLES START*/
+body {
+    padding: 0 1rem;
+}
+/* BODY STYLES END */
+
+
 /* NAVBAR STYLES START */
 header {
     padding: 3.25rem 0;
@@ -114,3 +121,35 @@ header {
     font-size: 1.5rem;
 }
 /* NAVBAR STYLES END */
+
+
+/* RESPONSIVE LAYOUT STYLES */
+/* small devices */
+@media screen and (max-width: 576px) {
+    #navbar-hamburger-btn {
+        display: block;
+    }
+    
+    .brand-title {
+        white-space: nowrap;
+    }
+
+    #nav-links-container li:nth-child(-n + 5) {
+        display: none;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #navbar-hamburger-btn {
+        display: block;
+    }
+    
+    .brand-title {
+        white-space: nowrap;
+    }
+
+    #nav-links-container li:nth-child(-n + 5) {
+        display: none;
+    }
+}
