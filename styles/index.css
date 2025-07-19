@@ -8,6 +8,9 @@
 
     /* primary text color */
     --text-color-primary: #3A3A3A;
+    
+    /* theme color */
+    --theme-color: #E02C6D;
 }
 /* VARIABLES END */
 
@@ -76,11 +79,29 @@ img {
 /* UTILITY CLASSES END */
 
 
+/* SHARED STYLES START */
+.btn-primary {
+    font-weight: bold;
+    color: white;
+    background-color: var(--theme-color);
+    padding: 0.625rem 1.5rem;
+    border: none;
+}
+/* SHARED STYLES END */
+
+
 /* BODY STYLES START*/
 body {
     padding: 0 1rem;
 }
 /* BODY STYLES END */
+
+
+/* MAIN STYLES START */
+main > section {
+    margin: 6.25rem auto;
+}
+/* MAIN STYLES END */
 
 
 /* NAVBAR STYLES START */
@@ -125,6 +146,56 @@ header {
     font-size: 1.5rem;
 }
 /* NAVBAR STYLES END */
+
+
+
+/* HERO SECTION STYLES START */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-title {
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: var(--text-color-primary);
+    line-height: 4.375rem;
+    margin-bottom: 1rem;
+}
+
+#hero-description {
+    max-width: 31.5625rem;
+    font-weight: 600;
+    color: var(--text-color-primary);
+    margin-bottom: 1rem;
+}
+
+#hero-btn {
+    border-radius: 2.5625rem;
+}
+
+.hero-icon {
+    margin: 0 0.5rem;
+}
+
+#hero-img-container {
+    width: 40%;
+    position: relative;
+}
+
+#hero-img-circle {
+    width: 100%;
+    height: auto;
+}
+
+#hero-img-camera {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1rem;
+}
+/* HERO SECTION STYLES END */
 
 
 /* RESPONSIVE LAYOUT STYLES */
