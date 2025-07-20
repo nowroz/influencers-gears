@@ -76,6 +76,10 @@ img {
 .nowrap {
     white-space: nowrap;
 }
+
+.section-margin {
+    margin: 6.25rem auto;
+}
 /* UTILITY CLASSES END */
 
 
@@ -95,13 +99,6 @@ body {
     padding: 0 1rem;
 }
 /* BODY STYLES END */
-
-
-/* MAIN STYLES START */
-main > section {
-    margin: 6.25rem auto;
-}
-/* MAIN STYLES END */
 
 
 /* NAVBAR STYLES START */
@@ -154,6 +151,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid;
 }
 
 #hero-title {
@@ -196,6 +194,16 @@ header {
     top: 0rem;
 }
 /* HERO SECTION STYLES END */
+
+
+/* STORES SECTION STYLES START */
+#stores {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid;
+}
+
+/* STORES SECTION STYLES END */
 
 
 /* RESPONSIVE LAYOUT STYLES */
