@@ -387,6 +387,10 @@ header {
     row-gap: 2rem;
     align-content: space-between;
   }
+
+  #products-card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* medium device */
