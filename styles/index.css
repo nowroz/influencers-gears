@@ -11,6 +11,15 @@
     
     /* theme color */
     --theme-color: #E02C6D;
+
+    /* card-product-title-color */
+    --card-product-title-color: #18191F;
+
+    /* card-product-price-color */
+    --card-product-price-color: rgba(0, 0, 0, 0.87);
+
+    /* rating-star-color */
+    --rating-star-color: #FB8200;
 }
 /* VARIABLES END */
 
@@ -70,6 +79,11 @@ img {
 
 .max-width-secondary {
     max-width: 1110px;
+    margin: var(--horizontally-center);
+}
+
+.max-width-tertiary {
+    max-width: 1047px;
     margin: var(--horizontally-center);
 }
 
@@ -207,6 +221,55 @@ header {
     align-items: center;
 }
 /* STORES SECTION STYLES END */
+
+
+/* POPULAR COLLECTION SECTION STYLES START */
+#popular-collection-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 4.375rem;
+    color: var(--text-color-primary);
+    text-align: center;
+}
+
+#products-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.product-card {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 1.0625rem 0.875rem;
+    border-radius: 5px;
+}
+
+.card-product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card-product-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: var(--card-product-title-color);
+    margin-bottom: 0.375rem;
+}
+
+.card-product-price {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 150%;
+    color: var(--card-product-price-color);
+}
+
+.rating-star {
+    font-size: 0.6875rem;
+    color: var(--rating-star-color);
+}
+/* POPULAR COLLECTION SECTION STYLES END */
 
 
 /* RESPONSIVE LAYOUT STYLES */
