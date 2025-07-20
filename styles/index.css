@@ -212,6 +212,10 @@ header {
 /* RESPONSIVE LAYOUT STYLES */
 /* small devices */
 @media screen and (max-width: 576px) {
+    .section-margin {
+        margin: 3.125rem auto;
+    }
+
     #navbar-hamburger-btn {
         display: block;
     }
@@ -245,10 +249,58 @@ header {
         font-weight: 500;
         margin-bottom: 1.25rem;
     }
+
+    .grid-item {
+        width: 80%;
+        height: auto;
+    }
+
+    #alibaba {
+        grid-area: alibaba;
+    }
+
+    #amazon {
+        grid-area: amazon;
+    }
+
+    #daraz {
+        grid-area: daraz;
+    }
+
+    #ebay {
+        grid-area: ebay;
+    }
+
+    #rakuten {
+        grid-area: rakuten;
+    }
+
+    #walmart {
+        grid-area: walmart;
+    }
+
+    #target {
+        grid-area: target;
+    }
+
+    #stores {
+        grid-template-areas: 
+            "alibaba alibaba alibaba . amazon amazon amazon . daraz daraz daraz . ebay ebay ebay"
+            ". . rakuten rakuten rakuten . walmart walmart walmart . target target target . .";
+        grid-template-columns: repeat(15, 1fr);
+        border: none;
+        padding: 0;
+        row-gap: 2rem;
+        align-content: space-between;
+    }
 }
 
 /* medium device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    .section-margin {
+        margin: 3.125rem auto;
+    }
+
     #navbar-hamburger-btn {
         display: block;
     }
@@ -278,5 +330,49 @@ header {
 
     #hero-description {
         margin-bottom: 1.25rem;
+    }
+
+    .grid-item {
+        width: 80%;
+        height: auto;
+    }
+
+    #alibaba {
+        grid-area: alibaba;
+    }
+
+    #amazon {
+        grid-area: amazon;
+    }
+
+    #daraz {
+        grid-area: daraz;
+    }
+
+    #ebay {
+        grid-area: ebay;
+    }
+
+    #rakuten {
+        grid-area: rakuten;
+    }
+
+    #walmart {
+        grid-area: walmart;
+    }
+
+    #target {
+        grid-area: target;
+    }
+
+    #stores {
+        grid-template-areas: 
+            "alibaba alibaba alibaba . amazon amazon amazon . daraz daraz daraz . ebay ebay ebay"
+            ". . rakuten rakuten rakuten . walmart walmart walmart . target target target . .";
+        grid-template-columns: repeat(15, 1fr);
+        border: none;
+        padding: 0;
+        row-gap: 2rem;
+        align-content: space-between;
     }
 }
