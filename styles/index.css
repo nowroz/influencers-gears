@@ -151,7 +151,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid;
 }
 
 #hero-title {
@@ -201,8 +200,12 @@ header {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     border: 1px solid;
+    border-image-source: linear-gradient(to right, rgba(192, 204, 218, 0.1) 0, rgba(192, 204, 218, 0.6) 50%, rgba(192, 204, 218, 0.1) 100%);
+    border-image-slice: 33% 0 33% 0;
+    padding: 2.5rem 0;
+    justify-items: center;
+    align-items: center;
 }
-
 /* STORES SECTION STYLES END */
 
 
