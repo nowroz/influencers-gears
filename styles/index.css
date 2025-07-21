@@ -114,6 +114,7 @@ body section {
     padding: 0.625rem 1.5rem;
     border: none;
 }
+
 /* SHARED STYLES END */
 
 
@@ -227,6 +228,7 @@ header {
 
 /* STORES SECTION STYLES END */
 
+
 /* POPULAR COLLECTION SECTION STYLES START */
 #popular-collection-title {
     font-size: 1.75rem;
@@ -308,6 +310,7 @@ header {
 
 /* POPULAR COLLECTION SECTION STYLES END */
 
+
 /* FEATURED PRODUCTS SECTION STYLES START */
 #featured-products {
     display: flex;
@@ -388,6 +391,7 @@ footer {
 .social-icon {
     color: white;
 }
+
 /* FOOTER STYLES END */
 
 /* RESPONSIVE LAYOUT STYLES */
@@ -509,7 +513,7 @@ footer {
 
     #copyrights {
         font-size: 0.75rem;
-    } 
+    }
 
     .social-link,
     .social-link:visited {
@@ -629,7 +633,7 @@ footer {
 
     #copyrights {
         font-size: 0.75rem;
-    } 
+    }
 
     .social-link,
     .social-link:visited {
