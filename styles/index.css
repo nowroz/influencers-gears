@@ -603,6 +603,24 @@ footer {
         align-content: space-between;
     }
 
+    .card-product-title {
+        font-size: 1.5rem;
+        line-height: normal;
+        margin-bottom: 0.375rem;
+    }
+
+    .card-product-price {
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+
+    .card-product-description {
+        font-size: 0.75rem;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
     #featured-products {
         flex-direction: column-reverse;
         gap: 1.875rem;
