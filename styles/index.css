@@ -100,6 +100,10 @@ img {
     margin: 6.25rem auto;
 }
 
+body section {
+    padding: 0 1rem;
+}
+
 /* UTILITY CLASSES END */
 
 /* SHARED STYLES START */
@@ -110,15 +114,8 @@ img {
     padding: 0.625rem 1.5rem;
     border: none;
 }
-
 /* SHARED STYLES END */
 
-/* BODY STYLES START*/
-body {
-    padding: 0 1rem;
-}
-
-/* BODY STYLES END */
 
 /* NAVBAR STYLES START */
 header {
@@ -344,6 +341,54 @@ header {
 }
 
 /* FEATURED PRODUCTS SECTION STYLES END */
+
+
+/* FOOTER STYLES START */
+footer {
+    background-color: #0A0826;
+    display: grid;
+    place-content: center;
+    padding: 3.125rem;
+}
+
+#footer-content {
+    text-align: center;
+}
+
+#footer-content-title {
+    color: white;
+    margin-bottom: 0.1875rem;
+}
+
+#copyrights {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: #D9DBE1;
+    margin-bottom: 1.0625rem;
+}
+
+#social-links-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-link,
+.social-link:visited {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 33, 58);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.social-icon {
+    color: white;
+}
+/* FOOTER STYLES END */
 
 /* RESPONSIVE LAYOUT STYLES */
 /* small devices */
