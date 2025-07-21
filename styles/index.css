@@ -502,6 +502,20 @@ footer {
     #featured-products-img {
         width: 90%;
     }
+
+    #footer-content-title {
+        font-size: 1rem;
+    }
+
+    #copyrights {
+        font-size: 0.75rem;
+    } 
+
+    .social-link,
+    .social-link:visited {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 
 /* medium device */
@@ -607,5 +621,19 @@ footer {
 
     #featured-products-img {
         width: 90%;
+    }
+
+    #footer-content-title {
+        font-size: 1rem;
+    }
+
+    #copyrights {
+        font-size: 0.75rem;
+    } 
+
+    .social-link,
+    .social-link:visited {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
